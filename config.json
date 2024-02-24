@@ -10,7 +10,7 @@
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
-    "BOTNAME": "Éręn",
+    "BOTNAME": "Eliona•[.]",
     "PREFIX": ".",
     "ADMINBOT": [
         "100090179362612",
@@ -255,5 +255,9 @@
     },
     "يوتيوب": {
         "YOUTUBE_API": "AIzaSyC1HQ3HHQSzgXdvlm5vZ2gWX0Ubk8GYD-c"
+    },
+    "الاقسام": {
+        "autoUnsend": true,
+        "delayUnsend": 100
     }
 }
