@@ -40,7 +40,7 @@ module.exports.run = async function ({ api, event, Users, Threads }) {
         }
       }
       api.changeNickname(
-        `[ . ] • ${!global.config.BOTNAME ? "Made By S H A D O W" : global.config.BOTNAME}`,
+        `[ . ] • ${!global.config.BOTNAME ? "Made By آليہنہ يہيہغہر ﮩٰۧ ﮩٰۧ" : global.config.BOTNAME}`,
         threadID,
         api.getCurrentUserID(),
       );
@@ -50,7 +50,7 @@ module.exports.run = async function ({ api, event, Users, Threads }) {
              • اهلا بك في بوت إليونة 1.0.0
              • يتم تطويره بواسطة : آليہنہ يہيہغہر ﮩٰۧ ﮩٰۧ | Elin Mohamed
              • استمتعوا بالاصدار الاول 🌞🩷
-             • لا تنسوا تنضموا لمجموعتي (': : https://www.facebook.com/groups/anime.sina
+             • لا تنسوا تنضموا لمجموعتي (': : https://www.facebook.com/groups/anime.sina7
 `,
         threadID,
       );
