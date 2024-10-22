@@ -3,13 +3,13 @@ const colors = ['red', 'yellow', 'blue', 'magenta', 'cyan'];
 module.exports = (data, option) => {
 	switch (option) {
 		case "warn":
-			console.log(chalk.yellow('[ ❕ ] » ') + data);
+			console.log(chalk.yellow('[ ❕ ] → ') + data);
 			break;
 		case "error":
-			console.log(chalk.red('[ ❕ ] » ') + data);
+			console.log(chalk.red('[ ❕ ] → ') + data);
 			break;
 		default:
-			console.log(chalk[colors[Math.floor(Math.random() * colors.length)]](`${option} » `) + chalk[colors[Math.floor(Math.random() * colors.length)]](data));
+			console.log(chalk[colors[Math.floor(Math.random() * colors.length)]](`${option} → `) + chalk[colors[Math.floor(Math.random() * colors.length)]](data));
 			break;
 	}
 }
@@ -17,13 +17,13 @@ module.exports = (data, option) => {
 module.exports.loader = (data, option) => {
 	switch (option) {
 		case "warn":
-			console.log(chalk.yellow('[ A  K  A  M  E ] » ') + data);
+			console.log(chalk.yellow('[ ✿ ELIONA ❀] →') + data);
 			break;
 		case "error":
-			console.log(chalk.red('[ A  K  A  M  E ] » ') + data);
+			console.log(chalk.red('[ ❀ ELIONA ✿ ] → ') + data);
 			break;
 		default:
-			console.log(chalk[colors[Math.floor(Math.random() * colors.length)]](`[ A  K  A  M  E ] » `) + chalk[colors[Math.floor(Math.random() * colors.length)]](data));
+			console.log(chalk[colors[Math.floor(Math.random() * colors.length)]](`[✿ ELIONA ❀] → `) + chalk[colors[Math.floor(Math.random() * colors.length)]](data));
 			break;
 	}
 }
